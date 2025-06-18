@@ -7,7 +7,8 @@
 
 secret_number = 10
 
-while True:
+while guess == secret_number :
+    
     guess = int(input("Guess the number: "))
 
     if guess < secret_number:

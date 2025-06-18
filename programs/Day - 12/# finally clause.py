@@ -12,7 +12,7 @@ try :
     lock  = True
     div = 1/0
 except ZeroDivisionError as e:
-    print("cannot divisible by zero " , e)
+    print("cannot divisible by zero " )
 finally:
     lock = False
     print(" Lock released .. ")
